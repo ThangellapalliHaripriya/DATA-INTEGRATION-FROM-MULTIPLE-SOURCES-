@@ -1,0 +1,113 @@
+CREATE DATABASE EmployeeDB;
+USE EmployeeDB;
+CREATE TABLE EmployeePerformance (
+  EmployeeID INT PRIMARY KEY,
+  Name VARCHAR(255),
+  Department VARCHAR(100),
+  Role VARCHAR(100),
+  Salary INT,
+  PerformanceRating VARCHAR(50),
+  ProjectsCompleted INT,
+  JoiningDate DATE
+);
+
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (1, 'Employee 1', 'Operations', 'Coordinator', 137550, 'Excellent', 4, '2016-12-15');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (2, 'Employee 2', 'Customer Support', 'Analyst', 124394, 'Average', 50, '2023-09-09');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (3, 'Employee 3', 'Sales', 'Executive', 111844, 'Below Average', 4, '2023-04-08');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (4, 'Employee 4', 'Legal', 'Consultant', 137324, 'Excellent', 39, '2021-10-08');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (5, 'Employee 5', 'Sales', 'Specialist', 102308, 'Average', 19, '2018-10-10');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (6, 'Employee 6', 'Finance', 'Engineer', 149417, 'Below Average', 31, '2021-07-21');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (7, 'Employee 7', 'R&D', 'Executive', 108226, 'Below Average', 29, '2015-04-15');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (8, 'Employee 8', 'Finance', 'Officer', 90090, 'Poor', 6, '2018-08-16');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (9, 'Employee 9', 'Sales', 'Intern', 64456, 'Below Average', 36, '2019-03-28');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (10, 'Employee 10', 'Sales', 'Analyst', 109596, 'Average', 39, '2017-04-07');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (11, 'Employee 11', 'Legal', 'Engineer', 125124, 'Excellent', 49, '2020-01-14');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (12, 'Employee 12', 'IT', 'Analyst', 145061, 'Poor', 36, '2020-03-28');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (13, 'Employee 13', 'Operations', 'Assistant', 77957, 'Below Average', 44, '2019-05-18');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (14, 'Employee 14', 'R&D', 'Intern', 129928, 'Poor', 10, '2020-01-25');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (15, 'Employee 15', 'HR', 'Specialist', 116533, 'Good', 28, '2017-04-22');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (16, 'Employee 16', 'R&D', 'Assistant', 136294, 'Average', 8, '2019-08-20');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (17, 'Employee 17', 'Sales', 'Analyst', 149585, 'Excellent', 29, '2020-03-18');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (18, 'Employee 18', 'IT', 'Analyst', 87341, 'Below Average', 21, '2018-04-07');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (19, 'Employee 19', 'IT', 'Intern', 79585, 'Below Average', 12, '2017-07-10');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (20, 'Employee 20', 'Finance', 'Assistant', 72113, 'Excellent', 33, '2024-06-26');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (21, 'Employee 21', 'Finance', 'Intern', 87637, 'Below Average', 37, '2023-01-07');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (22, 'Employee 22', 'Marketing', 'Consultant', 118336, 'Average', 41, '2016-08-20');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (23, 'Employee 23', 'Customer Support', 'Analyst', 87930, 'Below Average', 35, '2023-05-15');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (24, 'Employee 24', 'Operations', 'Executive', 120993, 'Poor', 27, '2024-06-07');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (25, 'Employee 25', 'Finance', 'Engineer', 86241, 'Below Average', 42, '2021-05-09');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (26, 'Employee 26', 'Marketing', 'Analyst', 66218, 'Excellent', 22, '2017-07-29');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (27, 'Employee 27', 'HR', 'Engineer', 40120, 'Average', 25, '2018-05-18');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (28, 'Employee 28', 'Legal', 'Executive', 115340, 'Average', 12, '2019-04-13');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (29, 'Employee 29', 'Legal', 'Consultant', 133167, 'Poor', 32, '2022-10-10');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (30, 'Employee 30', 'Admin', 'Executive', 112401, 'Excellent', 24, '2017-02-08');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (31, 'Employee 31', 'HR', 'Assistant', 73228, 'Average', 36, '2019-03-27');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (32, 'Employee 32', 'Customer Support', 'Engineer', 115502, 'Average', 9, '2021-09-04');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (33, 'Employee 33', 'Operations', 'Engineer', 92126, 'Below Average', 26, '2017-08-16');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (34, 'Employee 34', 'Operations', 'Manager', 51950, 'Excellent', 19, '2016-02-21');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (35, 'Employee 35', 'Customer Support', 'Assistant', 86738, 'Good', 29, '2023-03-19');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (36, 'Employee 36', 'HR', 'Executive', 35330, 'Good', 18, '2015-07-17');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (37, 'Employee 37', 'Marketing', 'Specialist', 147903, 'Below Average', 17, '2022-10-18');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (38, 'Employee 38', 'Marketing', 'Executive', 70823, 'Good', 18, '2023-12-20');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (39, 'Employee 39', 'Finance', 'Coordinator', 88779, 'Excellent', 44, '2017-08-12');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (40, 'Employee 40', 'R&D', 'Assistant', 134944, 'Good', 14, '2015-06-16');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (41, 'Employee 41', 'Marketing', 'Specialist', 139735, 'Below Average', 21, '2021-09-23');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (42, 'Employee 42', 'Operations', 'Specialist', 147728, 'Poor', 12, '2024-10-05');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (43, 'Employee 43', 'Operations', 'Specialist', 63694, 'Excellent', 10, '2022-02-04');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (44, 'Employee 44', 'Admin', 'Coordinator', 85295, 'Average', 42, '2015-08-13');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (45, 'Employee 45', 'Customer Support', 'Intern', 118025, 'Excellent', 23, '2017-10-06');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (46, 'Employee 46', 'Finance', 'Officer', 130650, 'Average', 43, '2022-01-07');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (47, 'Employee 47', 'Legal', 'Assistant', 124399, 'Below Average', 19, '2017-10-27');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (48, 'Employee 48', 'Operations', 'Officer', 76450, 'Average', 44, '2018-03-23');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (49, 'Employee 49', 'HR', 'Coordinator', 85205, 'Good', 29, '2022-12-16');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (50, 'Employee 50', 'Legal', 'Engineer', 124159, 'Below Average', 6, '2016-10-12');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (51, 'Employee 51', 'HR', 'Intern', 45232, 'Poor', 22, '2022-01-20');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (52, 'Employee 52', 'Operations', 'Engineer', 71055, 'Average', 3, '2022-03-05');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (53, 'Employee 53', 'Admin', 'Engineer', 109857, 'Good', 15, '2021-05-05');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (54, 'Employee 54', 'Operations', 'Intern', 139878, 'Excellent', 37, '2022-04-26');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (55, 'Employee 55', 'Marketing', 'Manager', 148190, 'Good', 47, '2019-12-16');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (56, 'Employee 56', 'Legal', 'Intern', 50838, 'Excellent', 2, '2017-10-22');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (57, 'Employee 57', 'Admin', 'Consultant', 83619, 'Good', 43, '2021-12-01');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (58, 'Employee 58', 'Legal', 'Manager', 50717, 'Good', 49, '2024-03-26');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (59, 'Employee 59', 'Legal', 'Officer', 147080, 'Average', 6, '2016-02-02');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (60, 'Employee 60', 'IT', 'Engineer', 128267, 'Below Average', 40, '2016-02-15');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (61, 'Employee 61', 'Finance', 'Engineer', 117383, 'Excellent', 48, '2018-07-27');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (62, 'Employee 62', 'Legal', 'Officer', 74245, 'Good', 33, '2022-09-10');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (63, 'Employee 63', 'Finance', 'Consultant', 93763, 'Below Average', 34, '2018-01-22');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (64, 'Employee 64', 'Finance', 'Coordinator', 40791, 'Poor', 28, '2024-11-20');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (65, 'Employee 65', 'Admin', 'Analyst', 84013, 'Poor', 25, '2021-08-28');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (66, 'Employee 66', 'Admin', 'Engineer', 65623, 'Good', 29, '2020-08-21');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (67, 'Employee 67', 'Sales', 'Manager', 132861, 'Excellent', 44, '2021-12-09');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (68, 'Employee 68', 'Marketing', 'Specialist', 84164, 'Excellent', 11, '2023-04-24');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (69, 'Employee 69', 'R&D', 'Engineer', 104581, 'Poor', 40, '2021-11-23');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (70, 'Employee 70', 'Sales', 'Analyst', 125853, 'Average', 50, '2015-10-28');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (71, 'Employee 71', 'R&D', 'Manager', 131738, 'Poor', 22, '2017-12-26');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (72, 'Employee 72', 'Finance', 'Intern', 120195, 'Good', 40, '2020-06-01');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (73, 'Employee 73', 'HR', 'Coordinator', 117731, 'Average', 4, '2023-11-02');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (74, 'Employee 74', 'Sales', 'Specialist', 79399, 'Poor', 29, '2024-03-25');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (75, 'Employee 75', 'Marketing', 'Manager', 102959, 'Below Average', 7, '2017-12-09');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (76, 'Employee 76', 'Marketing', 'Engineer', 47286, 'Excellent', 39, '2015-07-18');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (77, 'Employee 77', 'IT', 'Intern', 119174, 'Excellent', 4, '2023-02-08');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (78, 'Employee 78', 'Finance', 'Executive', 49050, 'Good', 6, '2020-06-12');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (79, 'Employee 79', 'Finance', 'Consultant', 86033, 'Poor', 30, '2020-09-18');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (80, 'Employee 80', 'Marketing', 'Assistant', 46991, 'Average', 18, '2015-06-24');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (81, 'Employee 81', 'Sales', 'Assistant', 65275, 'Excellent', 29, '2018-12-05');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (82, 'Employee 82', 'Finance', 'Coordinator', 134268, 'Poor', 14, '2016-10-07');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (83, 'Employee 83', 'R&D', 'Executive', 86793, 'Below Average', 33, '2020-03-01');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (84, 'Employee 84', 'HR', 'Intern', 95479, 'Good', 23, '2021-10-22');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (85, 'Employee 85', 'R&D', 'Manager', 124550, 'Below Average', 16, '2017-07-14');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (86, 'Employee 86', 'R&D', 'Assistant', 108579, 'Excellent', 3, '2016-08-07');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (87, 'Employee 87', 'Operations', 'Officer', 46348, 'Poor', 20, '2015-12-23');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (88, 'Employee 88', 'R&D', 'Consultant', 59476, 'Excellent', 13, '2015-08-02');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (89, 'Employee 89', 'IT', 'Consultant', 138845, 'Excellent', 6, '2015-08-04');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (90, 'Employee 90', 'Operations', 'Intern', 106998, 'Poor', 1, '2020-08-12');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (91, 'Employee 91', 'R&D', 'Manager', 36606, 'Excellent', 16, '2022-02-17');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (92, 'Employee 92', 'Admin', 'Intern', 87453, 'Good', 46, '2023-06-25');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (93, 'Employee 93', 'Customer Support', 'Executive', 61024, 'Below Average', 37, '2017-10-17');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (94, 'Employee 94', 'IT', 'Assistant', 126262, 'Below Average', 33, '2016-04-21');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (95, 'Employee 95', 'Admin', 'Manager', 53937, 'Average', 44, '2016-01-20');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (96, 'Employee 96', 'Legal', 'Intern', 107838, 'Average', 29, '2015-08-04');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (97, 'Employee 97', 'Legal', 'Executive', 143123, 'Below Average', 3, '2018-11-20');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (98, 'Employee 98', 'Customer Support', 'Officer', 111513, 'Excellent', 6, '2023-03-16');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (99, 'Employee 99', 'R&D', 'Officer', 59026, 'Excellent', 25, '2017-09-18');
+INSERT INTO EmployeePerformance (EmployeeID, Name, Department, Role, Salary, PerformanceRating, ProjectsCompleted, JoiningDate) VALUES (100, 'Employee 100', 'HR', 'Officer', 80798, 'Average', 41, '2017-05-15');
